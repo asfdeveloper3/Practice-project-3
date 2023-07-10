@@ -55,3 +55,57 @@ span{
     color: white;
     background-color: orangered;
 }
+
+/**main bar**/
+
+/**sercive section**/
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-image: url('asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,1.8),rgba(0,0,0,0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.service-info{
+    color: white;
+    margin-bottom: 40px;
+}
+.into{
+    display: flex;
+    gap:20px;
+    
+}
+.into-section{
+    display: flex;
+    align-items: center;
+    border-right: 5px solid tomato;
+    padding-right: 20px;
+}
+.authors-pic{
+    width: 70px;
+    border-radius: 100px;
+}
+.service-logo{
+    height: 90px;
+}
+.service-box{
+    text-align: center;
+    width: 150px;
+    height:150px;
+    padding:50px;
+    color:black;
+    background-color: white;
+    box-shadow: 5px 5px 5px violet;
+}
+
+.service-img{
+    padding-top: 55px;
+    padding-right: 55px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+}
